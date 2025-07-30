@@ -32,7 +32,7 @@ export default function Hero() {
           className="text-4xl sm:text-6xl font-bold text-white leading-tight"
         >
           Hi, I'm{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
+          <span className="mt-5 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
             Aditya Tamgade
           </span>
         </motion.h1>

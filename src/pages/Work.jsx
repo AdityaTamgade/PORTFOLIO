@@ -9,7 +9,7 @@ const projects = [
     title: "Portfolio",
     tags: ["React", "Tailwind CSS", "Vite"],
     image: "./6.png",
-    link: "",
+    link: "https://portfolio-khph.vercel.app",
   },
   {
     title: "Hotel Booking Cancellation Analysis",

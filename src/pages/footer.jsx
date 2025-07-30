@@ -30,8 +30,7 @@ const Footer = () => {
             LinkedIn
           </a>
           <a
-            href="https://www.instagram.com/adityatamgade_29/?hl=en"
-            target="_blank"
+            href="https://www.instagram.com"
             rel="noopener noreferrer"
             className="hover:underline"
           >

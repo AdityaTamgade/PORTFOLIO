@@ -1,7 +1,6 @@
-// src/components/Hero.jsx
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import BgImage from "../assets/herobg.jpg"; // adjust path based on your folder structure
+import BgImage from "../assets/herobg.jpg";
 
 export default function Hero() {
   const scrollToEducation = () => {
@@ -12,7 +11,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative w-full min-h-screen flex flex-col justify-center items-center text-center px-6 sm:px-12 md:px-20 lg:px-60 overflow-hidden">
+    <section className="relative w-full min-h-screen flex flex-col justify-center items-center text-center px-6 sm:px-12 md:px-20 lg:px-60 overflow-visible pt-32 mt-10">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center z-0 opacity-20 sm:opacity-30 md:opacity-40"
@@ -29,10 +28,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-4xl sm:text-6xl font-bold text-white leading-tight"
+          className="text-3xl sm:text-6xl font-bold text-white leading-tight"
         >
           Hi, I'm{" "}
-          <span className="mt-9 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
+          <span className=" mt-8 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
             Aditya Tamgade
           </span>
         </motion.h1>
@@ -42,7 +41,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 1 }}
-          className="text-xl sm:text-3xl text-gray-300 mt-4"
+          className="text-lg sm:text-3xl text-gray-300 mt-4"
         >
           A Passionate{" "}
           <span className="text-indigo-300">
@@ -86,7 +85,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, y: [0, 10, 0] }}
           transition={{ delay: 2, duration: 2, repeat: Infinity }}
-          className="mt-12 cursor-pointer"
+          className="mt-6 cursor-pointer"
           onClick={scrollToEducation}
         >
           <span className="text-indigo-500 text-3xl animate-bounce">↓</span>
@@ -96,11 +95,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 1 }}
-          className="flex gap-6 mt-8 flex-wrap justify-center"
+          className="flex gap-6 mt-5 flex-wrap justify-center"
         >
           <Link
             to="/qualification"
-            className="mt-4 inline-flex items-center gap-2 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-purple-600 hover:to-indigo-500 text-white font-semibold px-5 py-2 rounded-full shadow-md hover:scale-105 transition-transform duration-300"
+            className="mt-2 inline-flex items-center gap-2 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-purple-600 hover:to-indigo-500 text-white font-semibold px-5 py-2 rounded-full shadow-md hover:scale-105 transition-transform duration-300"
           >
             Experience and Qualifications
           </Link>

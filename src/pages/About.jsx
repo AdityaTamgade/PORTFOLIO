@@ -164,7 +164,7 @@ export default function About() {
       {/* Resume Button */}
       <div className="mt-16 text-center">
         <a
-          href="/MYRESUME.pdf"
+          href="../MYRESUME.pdf"
           download
           className="inline-block bg-gradient-to-r from-purple-500 to-pink-600 hover:from-pink-600 hover:to-purple-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-transform duration-300 hover:scale-105"
         >

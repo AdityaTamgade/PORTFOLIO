@@ -14,7 +14,7 @@ import Photo10 from "../assets/Photo10.jpg";
 import Photo11 from "../assets/Photo11.jpg";
 
 import { motion } from "framer-motion";
-
+import ADITYA_RESUME from "../assets/ADITYA_RESUME.pdf"
 export default function About() {
   const tools = [
     "html",
@@ -164,7 +164,7 @@ export default function About() {
       {/* Resume Button */}
       <div className="mt-16 text-center">
         <a
-          href="/MYRESUME.pdf"
+          href="/ADITYA_RESUME.pdf"
           download
           className="inline-block bg-gradient-to-r from-purple-500 to-pink-600 hover:from-pink-600 hover:to-purple-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-transform duration-300 hover:scale-105"
         >
@@ -268,3 +268,4 @@ export default function About() {
     </div>
   );
 }
+

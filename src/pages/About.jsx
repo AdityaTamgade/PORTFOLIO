@@ -14,7 +14,7 @@ import Photo10 from "../assets/Photo10.jpg";
 import Photo11 from "../assets/Photo11.jpg";
 
 import { motion } from "framer-motion";
-import ADITYA_RESUME from "../assets/ADITYA_RESUME.pdf"
+import MYRESUME from "MYRESUME.pdf"
 export default function About() {
   const tools = [
     "html",
@@ -268,4 +268,5 @@ export default function About() {
     </div>
   );
 }
+
 

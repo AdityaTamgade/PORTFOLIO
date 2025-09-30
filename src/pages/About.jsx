@@ -1,7 +1,7 @@
 import profilePic from "../assets/profile.jpg";
 import githubDashboard from "../assets/githubdashboard.png";
 import linkedinDashboard from "../assets/linkedindashboard.png";
-import photo1 from "../assets/photo1.jpg"; // Replace with real photos
+import photo1 from "../assets/photo1.jpg"; 
 import photo2 from "../assets/photo2.jpg";
 import photo3 from "../assets/photo3.jpg";
 import photo5 from "../assets/photo5.jpg";
@@ -14,7 +14,7 @@ import Photo10 from "../assets/Photo10.jpg";
 import Photo11 from "../assets/Photo11.jpg";
 
 import { motion } from "framer-motion";
-import MYRESUME from "MYRESUME.pdf"
+
 export default function About() {
   const tools = [
     "html",
@@ -120,9 +120,7 @@ export default function About() {
             👋 I'm a frontend developer passionate about creating beautiful,
             responsive, and high-performance web interfaces. <br />
             <br />✨ I specialize in{" "}
-            <span className="text-indigo-400 font-semibold">
-              React
-            </span> and{" "}
+            <span className="text-indigo-400 font-semibold">React</span> and{" "}
             <span className="text-pink-400 font-semibold">Tailwind CSS</span>.
             Always eager to explore cutting-edge web technologies and turn ideas
             into reality!
@@ -268,6 +266,3 @@ export default function About() {
     </div>
   );
 }
-
-
-

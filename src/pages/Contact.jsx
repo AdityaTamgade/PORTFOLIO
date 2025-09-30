@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaUser, FaEnvelope, FaCommentDots } from "react-icons/fa";
-import { motion } from "framer-motion"; // make sure framer-motion is installed
+import { motion } from "framer-motion";
+import emailjs from "emailjs-com"; // install with: npm install emailjs-com
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -11,30 +12,30 @@ export default function Contact() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setIsSending(true);
     setStatus("Sending...");
 
-    try {
-      const res = await fetch("http://localhost:5000/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-
-      const data = await res.json();
-      if (res.ok) {
-        setStatus("✅ Message sent successfully!");
-        setForm({ name: "", email: "", message: "" });
-      } else {
-        setStatus(`❌ ${data.msg || "Failed to send message"}`);
-      }
-    } catch (err) {
-      setStatus("❌ Server error. Please try again later.");
-    }
-
-    setIsSending(false);
+    emailjs
+      .send(
+        "service_v0c9oiu",   // 🔹 Replace with your Service ID
+        "template_mu8ihln",  // 🔹 Replace with your Template ID
+        form,
+        "xY_D8_Tv4XYv_SNiH"    // 🔹 Replace with your Public Key
+      )
+      .then(
+        () => {
+          setStatus("✅ Message sent successfully!");
+          setForm({ name: "", email: "", message: "" });
+          setIsSending(false);
+        },
+        (err) => {
+          console.error("EmailJS Error:", err);
+          setStatus("❌ Failed to send message. Try again.");
+          setIsSending(false);
+        }
+      );
   };
 
   return (
@@ -53,8 +54,7 @@ export default function Contact() {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-center text-pink-300 italic text-sm mb-6"
         >
-          "The best way to get started is to quit talking and begin doing." —
-          Walt Disney
+          "The best way to get started is to quit talking and begin doing." — Walt Disney
         </motion.p>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-5">

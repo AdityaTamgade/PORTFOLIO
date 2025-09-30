@@ -20,7 +20,7 @@ export default function Contact() {
     emailjs
       .send(
         "service_v0c9oiu",   // 🔹 Replace with your Service ID
-        "template_mu8ihln",  // 🔹 Replace with your Template ID
+        "template_x3rmwfd",  // 🔹 Replace with your Template ID
         form,
         "xY_D8_Tv4XYv_SNiH"    // 🔹 Replace with your Public Key
       )
@@ -113,3 +113,4 @@ export default function Contact() {
     </div>
   );
 }
+

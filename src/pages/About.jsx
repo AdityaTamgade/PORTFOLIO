@@ -1,7 +1,7 @@
 import profilePic from "../assets/profile.jpg";
 import githubDashboard from "../assets/githubdashboard.png";
 import linkedinDashboard from "../assets/linkedindashboard.png";
-import photo1 from "../assets/photo1.jpg"; 
+import photo1 from "../assets/photo1.jpg";
 import photo2 from "../assets/photo2.jpg";
 import photo3 from "../assets/photo3.jpg";
 import photo5 from "../assets/photo5.jpg";
@@ -60,6 +60,7 @@ export default function About() {
       description:
         "A keen-eyed raptor, likely a hawk or eagle, surveys its surroundings from a sturdy branch, its plumage a beautiful mosaic against the blurred green backdrop of the trees.",
     },
+
     {
       src: photo3,
       title: "Lakeside Sentinel",
@@ -120,7 +121,9 @@ export default function About() {
             👋 I'm a frontend developer passionate about creating beautiful,
             responsive, and high-performance web interfaces. <br />
             <br />✨ I specialize in{" "}
-            <span className="text-indigo-400 font-semibold">React</span> and{" "}
+            <span className="text-indigo-400 font-semibold">
+              React
+            </span> and{" "}
             <span className="text-pink-400 font-semibold">Tailwind CSS</span>.
             Always eager to explore cutting-edge web technologies and turn ideas
             into reality!
@@ -140,7 +143,7 @@ export default function About() {
           <img
             src={githubDashboard}
             alt="GitHub Dashboard"
-            className="w-full h-auto"
+            className="w-full h-full"
           />
         </motion.a>
 
@@ -162,7 +165,7 @@ export default function About() {
       {/* Resume Button */}
       <div className="mt-16 text-center">
         <a
-          href="/ADITYA VIJAY TAMGADE..pdf"
+          href="src/assets/ADITYA VIJAY TAMGADE..pdf"
           download
           className="inline-block bg-gradient-to-r from-purple-500 to-pink-600 hover:from-pink-600 hover:to-purple-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-transform duration-300 hover:scale-105"
         >
@@ -266,4 +269,3 @@ export default function About() {
     </div>
   );
 }
-

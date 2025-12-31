@@ -1,5 +1,23 @@
 const projects = [
   {
+    title: "AI-Powered Customer Churn Early-Warning System",
+    tags: ["Power BI", "Excel", "pandas", "numpy", "scikit-learn"],
+    image: "./a2.png",
+    link: "https://ai-powered-customer-churn-early-warning-system.streamlit.app/",
+  },
+  {
+    title: "Retail Sales Performance Dashboard with Predictive Insights.",
+    tags: ["Power BI", "Excel"],
+    image: "./a3.png",
+    link: "https://github.com/AdityaTamgade/POWER-BI-DASHBOARD",
+  },
+  {
+    title: "Automated Data Cleaning Tool. [ PYTHON ]",
+    tags: ["Power BI", "Excel", "Kaggle"],
+    image: "./a1.png",
+    link: "https://automated-data-cleaning-tool-m7qjsmpqgbxd73i4w4or76.streamlit.app/",
+  },
+  {
     title: "Teacher management System",
     tags: ["React", "Node.js", "typescript", "Tailwind"],
     image: "./image.png",

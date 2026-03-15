@@ -13,12 +13,6 @@ const projects = [
     link: "https://automated-data-cleaning-tool-m7qjsmpqgbxd73i4w4or76.streamlit.app/",
   },
   {
-    title: "Retail Sales Performance Dashboard with Predictive Insights",
-    tags: ["Power BI", "Excel", "Kaggle"],
-    image: "./a3.png",
-    link: "https://github.com/AdityaTamgade/POWER-BI-DASHBOARD",
-  },
-  {
     title: "Teacher management System",
     tags: ["React", "Node.js", "typescript", "Tailwind"],
     image: "./image.png",
@@ -29,6 +23,12 @@ const projects = [
     tags: ["React", "Tailwind CSS", "Vite"],
     image: "./6.png",
     link: "https://portfolio-khph.vercel.app",
+  },
+  {
+    title: "Retail Sales Performance Dashboard with Predictive Insights",
+    tags: ["Power BI", "Excel", "Kaggle"],
+    image: "./a3.png",
+    link: "https://github.com/AdityaTamgade/POWER-BI-DASHBOARD",
   },
   {
     title: "Hotel Booking Cancellation Analysis",

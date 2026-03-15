@@ -118,15 +118,20 @@ export default function About() {
           className="max-w-xl backdrop-blur-md bg-white/10 p-6 rounded-2xl text-center sm:text-left shadow-lg border border-white/10"
         >
           <p className="text-gray-300 text-lg leading-relaxed">
-            👋 I'm a frontend developer passionate about creating beautiful,
-            responsive, and high-performance web interfaces. <br />
-            <br />✨ I specialize in{" "}
+            I'm a Frontend & Full-Stack Developer who loves crafting beautiful,
+            responsive, and high-performance web interfaces. ✨ My core stack
+            includes React, Tailwind CSS, JavaScript, and modern web
+            technologies. I'm also exploring AI integration, intelligent web
+            apps, and automation to build smarter digital solutions.
+            <br />✨ I Aquire great{" "}
             <span className="text-indigo-400 font-semibold">
-              React
+              Analyzing
             </span> and{" "}
-            <span className="text-pink-400 font-semibold">Tailwind CSS</span>.
-            Always eager to explore cutting-edge web technologies and turn ideas
-            into reality!
+            <span className="text-pink-400 font-semibold">
+              Developing skills
+            </span>
+            . <br /> 🚀 I enjoy transforming ideas into scalable, user-friendly,
+            and visually engaging applications.
           </p>
         </motion.div>
       </div>
@@ -165,7 +170,7 @@ export default function About() {
       {/* Resume Button */}
       <div className="mt-16 text-center">
         <a
-          href="src/assets/ADITYA VIJAY TAMGADE..pdf"
+          href="src/assets/d:\ADITYA  TAMGADE..pdf"
           download
           className="inline-block bg-gradient-to-r from-purple-500 to-pink-600 hover:from-pink-600 hover:to-purple-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-transform duration-300 hover:scale-105"
         >

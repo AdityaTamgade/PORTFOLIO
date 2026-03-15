@@ -87,19 +87,18 @@ export default function Hero() {
   };
 
   return (
-    <section className="hero-section relative w-full min-h-screen flex flex-col justify-center items-center text-center px-6 sm:px-12 md:px-20 lg:px-60 overflow-visible mt-32">
+    <section className="hero-section relative w-full min-h-screen flex flex-col justify-center items-center text-center px-6 sm:px-12 md:px-20 lg:px-70 overflow-visible mt-30">
       {/* Background */}
       <div
         className="absolute inset-0 bg-cover bg-center z-0 opacity-20 sm:opacity-30 md:opacity-40"
         style={{ backgroundImage: `url(${BgImage})` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black via-gray-900 to-gray-950 opacity-90 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-indigo-950 to-purple-950 opacity-90" />
 
       {/* Three.js Scene */}
-      <Canvas className="absolute inset-0 -z-10">
+      <Canvas className="absolute inset-0 z-0">
         <ambientLight intensity={0.5} />
-        <directionalLight position={[2, 5, 2]} intensity={1} />
-
+        <directionalLight position={[2, 8, 2]} intensity={1} />
         <Suspense fallback={null}>
           <FloatingObject
             type="sphere"
@@ -110,7 +109,6 @@ export default function Hero() {
           <FloatingObject type="torus" position={[0, -1, -1]} color="#A78BFA" />
           <Stars radius={100} depth={50} count={5000} factor={4} fade />
         </Suspense>
-
         <OrbitControls enableZoom={false} />
       </Canvas>
 
@@ -145,6 +143,7 @@ export default function Hero() {
         >
           I specialize in building modern, high-performance web applications
           with intuitive UI/UX, smooth animations, and scalable architectures.
+          <br />
           Currently exploring AI-powered web solutions.
         </motion.p>
 

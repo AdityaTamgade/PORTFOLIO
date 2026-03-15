@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 text-white p-5  rounded-t-3xl shadow-md backdrop-blur-md">
+    <footer className="bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 text-white p-5  shadow-md backdrop-blur-md">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         <div className="mb-4 md:mb-0">
           <h2 className="text-xl font-semibold">Aditya Tamgade</h2>

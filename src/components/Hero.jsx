@@ -106,7 +106,7 @@ export default function Hero() {
 
       {/* 3D Canvas (Disabled on Mobile) */}
       {!isMobile && (
-        <Canvas className="absolute inset-0 z-0">
+        <Canvas className="absolute inset-0 -top-6 md:-top-10 lg:-top-16 z-0">
           <ambientLight intensity={0.5} />
           <directionalLight position={[2, 8, 2]} intensity={1} />
           <Suspense fallback={null}>

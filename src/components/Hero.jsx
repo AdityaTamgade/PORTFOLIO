@@ -155,9 +155,7 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 1 }}
           className="text-gray-400 max-w-md sm:max-w-xl mx-auto text-sm sm:text-lg leading-relaxed"
         >
-          I specialize in building modern, high-performance web applications
-          with intuitive UI/UX, smooth animations, and scalable architectures.
-          Currently exploring AI-powered web solutions.
+          I turn raw data into meaningful insights using Python, SQL, and Power BI. With experience in both data analytics and full-stack development, I design scalable solutions that drive smarter business decisions through data visualization and automation. Currently focused on advancing in AI-powered analytics..
         </motion.p>
 
         {/* Buttons */}

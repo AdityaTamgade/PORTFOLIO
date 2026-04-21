@@ -80,7 +80,6 @@ export default function Qualification() {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {[
-            [
   "HTML5/CSS3",
   "JavaScript (ES6+)",
   "React.js",
@@ -101,8 +100,7 @@ export default function Qualification() {
   "Data Cleaning & Preprocessing",
   "Exploratory Data Analysis (EDA)",
   "Dashboard Development",
-  "Problem Solving"
-],
+  "Problem Solving",
           ].map((skill, i) => (
             <motion.div
               key={i}

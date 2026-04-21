@@ -185,7 +185,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, y: [0, 10, 0] }}
           transition={{ delay: 1.5, duration: 2, repeat: Infinity }}
-          className="mt-8 cursor-pointer"
+          className="mt-5 cursor-pointer"
           onClick={scrollToEducation}
         >
           <span className="text-indigo-400 text-2xl">↓</span>

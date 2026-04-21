@@ -145,7 +145,7 @@ export default function Hero() {
           transition={{ delay: 0.3, duration: 1 }}
           className="text-lg sm:text-2xl text-gray-300"
         >
-          Frontend & Full-Stack Developer
+          Python Developer, Data Analyst, Frontend Full-Stack Developer.
         </motion.h2>
 
         {/* Description */}

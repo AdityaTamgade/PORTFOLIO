@@ -224,6 +224,7 @@
 //     </section>
 //   );
 // }import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import BgImage from "../assets/herobg.jpg";
 import { Suspense, useRef, useEffect, useState } from "react";

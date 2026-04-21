@@ -182,7 +182,7 @@ export default function Hero() {
 
         {/* Scroll Indicator */}
         {/* Scroll Indicator */}
-<motion.div
+{/* <motion.div
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
   transition={{ delay: 1.5, duration: 1 }}
@@ -204,7 +204,7 @@ export default function Hero() {
       className="w-1 h-2 bg-indigo-400 rounded-full"
     />
   </motion.div>
-</motion.div>
+</motion.div> */}
 
         {/* Qualification Button */}
         <motion.div

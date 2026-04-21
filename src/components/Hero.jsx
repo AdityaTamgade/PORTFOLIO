@@ -223,6 +223,7 @@ export default function Hero() {
       </div>
     </section>
   );
-}import { Link } from "react-router-dom";
+}
+
 
 

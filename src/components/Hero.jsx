@@ -96,10 +96,10 @@ export default function Hero() {
   return (
     <section className="relative w-full min-h-screen flex flex-col justify-center items-center text-center px-4 sm:px-6 md:px-12 lg:px-20 pt-24 md:pt-32 overflow-hidden">
       {/* Background Image */}
-      <div
+      {/* <div
         className="absolute inset-0 bg-cover bg-center z-0 opacity-20 sm:opacity-30"
         style={{ backgroundImage: `url(${BgImage})` }}
-      />
+      /> */}
 
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-indigo-950 to-purple-950 opacity-90" />

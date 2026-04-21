@@ -80,14 +80,29 @@ export default function Qualification() {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {[
-            "HTML5/CSS3",
-            "JavaScript/React",
-            "TailwindCSS",
-            "Node.js / Express",
-            "MongoDB",
-            "Python",
-            "Power BI",
-            "Git & GitHub",
+            [
+  "HTML5/CSS3",
+  "JavaScript (ES6+)",
+  "React.js",
+  "Tailwind CSS",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Python",
+  "SQL (MySQL / PostgreSQL)",
+  "Pandas",
+  "NumPy",
+  "Data Visualization",
+  "Power BI",
+  "Excel (Advanced)",
+  "REST APIs",
+  "Git & GitHub",
+  "Machine Learning (Basics)",
+  "Data Cleaning & Preprocessing",
+  "Exploratory Data Analysis (EDA)",
+  "Dashboard Development",
+  "Problem Solving"
+],
           ].map((skill, i) => (
             <motion.div
               key={i}

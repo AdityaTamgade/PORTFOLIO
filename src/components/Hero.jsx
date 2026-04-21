@@ -99,7 +99,7 @@ export default function Hero() {
        <div
         className="absolute inset-0 bg-cover bg-center z-0 opacity-20 sm:opacity-30"
         style={{ backgroundImage: `url(${BgImage})` }}
-      />}
+      />
 
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-indigo-950 to-purple-950 opacity-90" />

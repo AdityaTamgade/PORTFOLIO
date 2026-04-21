@@ -153,7 +153,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 1 }}
-          className="text-gray-400 max-w-md sm:max-w-xl mx-auto text-sm sm:text-lg leading-relaxed"
+          className="text-gray-400 max-w-xl sm:max-w-2xl mx-auto text-base sm:text-lg leading-relaxed px-2"
         >
           I turn raw data into meaningful insights using Python, SQL, and Power BI. With experience in both data analytics and full-stack development, I design scalable solutions that drive smarter business decisions through data visualization and automation. Currently focused on advancing in AI-powered analytics..
         </motion.p>

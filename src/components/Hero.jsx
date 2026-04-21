@@ -124,7 +124,7 @@ export default function Hero() {
       )}
 
       {/* Content */}
-      <div className="relative z-10 max-w-3xl mx-auto space-y-6 sm:space-y-8">
+      <div className="relative z-10 max-w-3xl mx-auto space-y-6 sm:space-y-8 -translate-y-6 md:-translate-y-10">
         {/* Heading */}
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
